@@ -1,0 +1,98 @@
+
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "Script hub yA#6260",
+     Style = 3,
+     SizeX = 200, -- Size in X
+     SizeY = 300,  -- Size in Y
+     Theme = "Dark",
+})
+
+-- pages.
+
+local Page = UI.New({
+    Title = "Scripts Random" 
+})
+
+local Page2 = UI.New({
+    Title = "Hub" 
+})
+
+-- Scripts Random
+
+Page.Button({
+    Text = "Prison Life",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+    end
+})
+
+Page.Button({
+    Text = "My Restaurant",
+    Callback = function()
+        loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
+    end
+})
+
+Page.Button({
+    Text = "Da hood",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+    end
+})
+
+Page.Button({
+    Text = "Astd",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
+    end
+})
+
+Page.Button({
+    Text = "bee swarm simulator",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/not-weuz/Lua/main/bsstrainer.lua"))()
+    end
+})
+
+Page.Button({
+    Text = "blox fruit",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/BloxFruit.lua"))()
+    end
+})
+
+Page.Button({
+    Text = "arsnela",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/Asenal-ArsoniaGui.lua", true))()
+    end
+})
+
+-- Hub
+
+Page2.Button({
+    Text = "Dark Hub",
+    Callback = function()
+        loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
+    end
+})
+
+Page2.Button({
+    Text = "Dark Hub",
+    Callback = function()
+        loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
+    end
+})
+
+local Page3 = UI.New({
+    Title = "Misc" 
+})
+
+Page2.Button({
+    Text = "ANTI BAN PRESS E",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/jebnPDXh", true))()
+    end
+})
